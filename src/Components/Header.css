@@ -1,0 +1,106 @@
+
+@keyframes animate {
+    0% {
+        border-bottom: 5px solid red;
+        border-right:  2px solid blue;
+        border-top:  5px solid #ffff003a;
+        border-left:  2px solid blue;
+    }
+    100% {
+        border-bottom: 5px solid purple;
+        border-right:  2px solid greenyellow;
+        border-top:  5px solid indianred;
+        border-left:  2px solid yellow;
+    }
+
+}
+.animations {
+    position: relative;
+    font-size: 40px;
+    font-weight: 900;
+    color: #fff;
+    overflow: hidden;
+}
+.animations::before {
+     
+    content: '';
+    position: absolute;
+    left: 110%;
+    width: 120%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent 0%, #000 5%, #000 100%);
+    animation: header-animate 5.5s linear forwards;
+
+}
+@keyframes header-animate {
+
+    0% {
+        left:  -20%;
+    }
+
+    100% {
+        left: 110%;
+    }
+
+}
+.animations span { 
+    color: #ff022c;
+}
+.wallpaper {
+    display: inline-flex;
+}
+.wallpaper .staticText {
+    font-size: 30px;
+    color: white;
+}
+.wallpaper .dynamicText {
+    height: 45px;
+    line-height: 45px;
+    overflow: hidden;
+}
+
+.dynamicText li {
+    color: red;
+    list-style: none;
+    font-size: 28px;
+    position: relative;
+    z-index: -10;
+}
+
+.dynamicText li span {
+    position: relative;
+}
+
+.dynamicText li span::after{
+   content: '';
+   position: absolute;
+   left: 0px;
+   height: 100%;
+   width: 100%;
+   border-left: 2px solid red;
+   margin-left: 10px;
+   background: black;
+   animation: typing 5s steps(19) infinite;
+}
+@keyframes typing {
+    100% {
+        left: 100%;
+        margin: 0 -25px 0 25px;
+    }
+}
+.socialLinks a{
+    margin: 10px;
+    color:white;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 30px;
+}
+.socialLinks a i:hover{
+    color:#b8b8b8;
+    transform: scale(1.2);
+    transition: 0.5s;
+   
+}
+.staticText {
+    margin-right: 10px;
+}
