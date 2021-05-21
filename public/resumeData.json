@@ -116,11 +116,18 @@
         "git":"https://github.com/Porgramming-Hero-web-course/react-auth-Maruful01"
       },
       {
-        "title":"Bpl Player Retention",
+        "title":"Doctors Portal",
+        "details":"My Travel Blog for my post-university travels",
+        "image":"5.png",
+        "live":"https://keen-shaw-f404e5.netlify.app/",
+        "git":""
+      },
+      {
+        "title":"DJM Cables",
         "details":"(offline now) A fighting gear company I started",
-        "image":"02.png",
-        "live":"https://603cdc398ed4f66a09cfe183--amazing-wright-bcb87a.netlify.app/",
-        "git":"https://github.com/Porgramming-Hero-web-course/simple-react-Maruful01"
+        "image":"6.png",
+        "live":"https://kind-elion-61965c.netlify.app/",
+        "git":"https://github.com/Porgramming-Hero-web-course/complete-website-client-Maruful01 live"
       },
       {
         "title":"Sports Mania",

@@ -1,8 +1,11 @@
 {
   "hosting": {
-    "site": "khanmaruful",
-    "public": "public",
-
+    "public": "y",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
     "rewrites": [
       {
         "source": "**",
